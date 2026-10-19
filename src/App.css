@@ -6,5 +6,9 @@ h1 { margin: 0 0 12px; font-size: clamp(1.5rem, 5vw, 2.2rem); letter-spacing: -0
 label { font-weight: 600; font-size: 0.9rem; }
 input { width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: #fff; font: inherit; }
 input:focus-visible { outline: 3px solid #9db0ff; outline-offset: 2px; }
+.form { display: flex; flex-direction: column; gap: 10px; }
+.btn { border: 0; border-radius: 10px; background: var(--accent); color: #fff; padding: 12px 20px; font: inherit; font-weight: 600; cursor: pointer; }
+.btn:hover { filter: brightness(1.08); }
+.btn:focus-visible { outline: 3px solid #9db0ff; outline-offset: 2px; }
 .result { margin: 8px 0 0; padding: 12px 14px; border-radius: 10px; background: #fff; border: 1px solid var(--line); font-weight: 600; }
 .result.good { color: var(--good); } .result.bad { color: var(--bad); }
